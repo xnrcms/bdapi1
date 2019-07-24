@@ -1,0 +1,33 @@
+{
+    "name": "xnrcms/bdapi1",
+    "description": "baidu pulic ai php sdk",
+    "type": "library",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "562909771",
+            "email": "562909771@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+    "psr-4": {
+        "Xnrcms\\Bdapi1\\": "src/"
+    },
+    "files": [
+        "lib/AipBase.php",
+        "AipBodyAnalysis.php",
+        "AipContentCensor.php",
+        "AipFace.php",
+        "AipImageClassify.php",
+        "AipImageSearch.php",
+        "AipKg.php",
+        "AipNlp.php",
+        "AipOcr.php",
+        "AipSpeech.php"
+    ]
+}
+}
